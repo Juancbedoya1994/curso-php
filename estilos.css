@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #003c71;
+}
+
+.caja{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    
+    background:#061e26;
+    text-align: center;
+}
+
+.caja h1{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.caja input[type="text"]{
+    border: 1px solid #3498db; 
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none ;
+    color: white;
+    border-radius: 5px;
+}
